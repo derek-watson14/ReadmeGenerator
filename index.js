@@ -26,7 +26,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please write one or more sentances about using this product:",
+    message: "Please write one or more sentences about using this product:",
     name: "usage",
   },
   {
