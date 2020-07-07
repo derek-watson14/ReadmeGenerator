@@ -1,7 +1,7 @@
 function printList(list) {
   let listText = "";
   for (let item of list) {
-    listText += `* ${item}\n`;
+    listText += `  * ${item}\n`;
   }
   return listText;
 }
@@ -70,7 +70,7 @@ function generateMarkdown(data) {
   
   ### Built With
   
-  ${printList(data.tech)}
+${printList(data.tech)}
   
   
   <!-- CONTRIBUTING -->
@@ -83,6 +83,26 @@ function generateMarkdown(data) {
   3. Commit your Changes (\`git commit -m 'Add some AmazingFeature'\`)
   4. Push to the Branch (\`git push origin feature/AmazingFeature\`)
   5. Open a Pull Request
+
+  <!-- INSTALLATION -->
+  ## Installation
+ 
+  1. Clone the repo
+  \`\`\`sh
+  git clone https://github.com/${data.username}/${data.reponame}.git
+  \`\`\`
+  2. Install NPM packages (if applicable)
+  \`\`\`sh
+  npm install
+  \`\`\`
+
+
+
+  <!-- USAGE EXAMPLES -->
+  ## Usage
+  ${data.usage}
+
+
   
   
   

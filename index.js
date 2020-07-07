@@ -26,6 +26,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "Please write one or more sentances about using this product:",
+    name: "usage",
+  },
+  {
+    type: "input",
     message: "What is your GitHub username?",
     name: "username",
   },
